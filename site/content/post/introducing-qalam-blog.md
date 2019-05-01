@@ -1,7 +1,10 @@
 ---
 title: Introducing Qalam Blog
 date: 2019-02-15T10:50:10.376Z
-categories: ടെക്നോളജി/Technology
+categories:
+  - Society
+  - Malayalam
+  - Kid's World
 tags:
   - tech
   - new
