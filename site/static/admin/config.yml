@@ -18,26 +18,26 @@ collections: # A list of collections the CMS should be able to edit
         multiple: true
         options:
           - English
-          - മലയാളം
-          - ഇസ്‌ലാം/Islam
-          - അല്ലാഹു/Allah
-          - പ്രവാചകന്മാർ /Prophets
-          - കുടുംബം/Family
-          - സമൂഹം/Society
-          - ശാസ്ത്രം/Science
-          - ചരിത്രം/History
-          - സാമ്പത്തികം/Economics
-          - വിമർശനങ്ങൾ/Criticisms
-          - ആനുകാലികം/Current Affairs
-          - അനുഭവങ്ങൾ/Anecdotes
-          - യാത്രാവിവരണം/Travelogues
-          - കുട്ടികളുടെ ലോകം/Kid's World
-          - കഥ/Stories
-          - കവിത/Poems
-          - ടെക്നോളജി/Technology
-          - കുട്ടികളുടെ ലോകം/Kid's World
-          - ആനുകാലികം/Current Affairs
-          - വിമർശനങ്ങൾ/Criticisms
+          - Malayalam
+          - Islam
+          - Allah
+          - Prophets
+          - Family
+          - Society
+          - Science
+          - History
+          - Economics
+          - Criticisms
+          - Current Affairs
+          - Anecdotes
+          - Travelogues
+          - Kid's World
+          - Stories
+          - Poems
+          - Technology
+          - Kid's World
+          - Current Affairs
+          - Criticisms
       - label: "Tags"
         name: "tags"
         widget: "list"
