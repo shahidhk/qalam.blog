@@ -1,0 +1,9 @@
+{{ $taxo := "categories" }} <!-- Use the plural form here -->
+{{ with .Param $taxo }}
+    {{ range $i, $v:= . }}
+        {{- if gt $i 0 }},&nbsp;{{ end -}}
+        {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($v | urlize)) -}}
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{- end -}}
+    {{- end -}}
+{{ end }}

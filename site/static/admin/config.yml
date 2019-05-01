@@ -20,6 +20,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - label: "Categories"
+        required: false
         name: "categories"
         widget: "select"
         multiple: true
@@ -42,10 +43,8 @@ collections: # A list of collections the CMS should be able to edit
           - Stories
           - Poems
           - Technology
-          - Kid's World
-          - Current Affairs
-          - Criticisms
       - label: "Tags"
+        required: false
         name: "tags"
         widget: "list"
       - {label: "Intro Blurb", name: "description", widget: "text"}

@@ -3,8 +3,6 @@ title: Trying out another page
 date: 2019-03-04T15:37:11.794Z
 description: This is a post testing out the layout of the blog.
 image: /img/blank-brainstorming-business-6357.png
-tags: ["tag1", "tag2"]
-categories: ["cat1"]
 ---
 
 # What is Lorem Ipsum?
