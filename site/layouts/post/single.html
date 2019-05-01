@@ -6,10 +6,21 @@
       <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
       <p>Read in {{ .ReadingTime }} minutes</p>
     </div>
+
+    <div class="flex grey-4">
+      {{ partial "categories.html" .}}
+    </div>
+    <br/>
+    
     <div class="cms mw6">
       <p>{{ .Description }}</p>
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
       {{ .Content }}
+    </div>
+    <br/>
+
+    <div class="flex grey-4">
+      {{ partial "tags.html" .}}
     </div>
 
     <div class="pt4">

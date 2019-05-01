@@ -1,6 +1,6 @@
 ---
-title: "Home page"
-subtitle: Notes from the Media club 
+title: "Qalam Blog"
+subtitle: From the Media School
 image: /img/home-jumbotron.jpg
 ---
 

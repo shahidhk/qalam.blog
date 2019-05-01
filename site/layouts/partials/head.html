@@ -1,6 +1,12 @@
 <head>
 
+	{{ if eq .Kind "taxonomy" }}
+	<title>{{ .Title }} {{ humanize .Data.Singular }} | Qalam.blog</title>
+	{{ else if (eq .Permalink "/") }}
+	<title>Qalam.blog</title>
+	{{ else }}
 	<title>{{ .Title }} | Qalam.blog</title>
+	{{ end }}
 	<link rel="stylesheet" href="/css/main.css" />
 
 	<meta charset="utf-8">
