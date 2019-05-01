@@ -7,6 +7,7 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 site_url: https://qalam.blog
+display_url: https://qalam.blog
 logo_url: https://qalam.blog/img/logo.svg
 
 show_preview_links: true
@@ -15,6 +16,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "site/content/post" # The path to the folder where the documents are stored
+    preview_path: "post/{{slug}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
